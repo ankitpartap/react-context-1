@@ -22,7 +22,7 @@ const Login = () => {
         placeholder="username"
       />{" "}
       <input
-        type="text"
+        type="password"
         placeholder="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
